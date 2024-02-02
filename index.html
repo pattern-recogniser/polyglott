@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="app-container">
+            <header>
+                <img src="assets/worldmap.png" alt="Image with text Pollyglot and a parrot">
+                <h1> Pollyglot </h1>
+            </header>
+            <app>
+                <h2>Text to translate 👇</h2>
+                <textarea placeholder="How are you? "></textarea>
+                <h2>Select language 👇</h2>
+                <input type="radio" id="French" name="selected_language" value="French">
+                <label for="French">French 🇫🇷</label><br>
+
+                <input type="radio" id="Spanish" name="selected_language" value="Spanish">
+                <label for="Spanish">Spanish 🇪🇸</label><br>
+
+                <input type="radio" id="Japanese" name="selected_language" value="Japanese">
+                <label for="Japanese">Japanese🇯🇵</label><br>
+
+                <button>
+                    Translate
+                </button>
+            </app>
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
