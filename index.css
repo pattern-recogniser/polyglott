@@ -1,8 +1,52 @@
 body{
     margin: 0;
     display: block;
+    font-family: 'Poppins', sans-serif;
 }
 #app-container{
     width: 780px;
     margin: 0 auto;
+}
+h2{
+    color: #035A9D
+}
+
+textarea{
+    background-color: #EFF0F4;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    width: 317px;
+    height: 118px;
+}
+
+button{
+    background-color: #035A9D;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin: 25px auto;
+    width: 322px;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.translated-div{
+    background-color: #EFF0F4;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    width: 322px;
+    height: 118px;
+    padding-left: 10px;
+}
+
+.translated-div p{
+    font-size: 20px;
 }
